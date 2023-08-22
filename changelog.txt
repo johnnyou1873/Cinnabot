@@ -1,0 +1,55 @@
+Cinnabot, by cinnamontau (he/she/they)
+
+2022-06-08 | v0.10beta2
+Added: automatic emoji updating
+Added: automatic pin archiving
+
+2022-06-08 | v0.9.1
+Fixed: images not sending
+Changed: changelog is sent as a .txt file instead of message text
+Fixed: promise handling of "updateemoji" command (again)
+
+2022-05-09 | v0.9.0
+Changed: bot now uses discord.js v13 (and related changes like intents)
+Removed: "math" command due to lack of use
+Removed: "sheep" and "raccoon" commands due to lack of use and relatively high storage usage
+Changed: aligned version numbers to major.minor.patch numbering
+
+2022-02-22 | v0.8.1
+Fixed: promise handling of "updateemoji" command
+
+2021-12-20 | v0.8.0
+Added: many more "message" commands
+
+2021-11-22 | v0.7.0
+Added: command aliases
+
+2021-10-13 | v0.6.1
+Fixed: "emoji" command now deletes old emoji (this took way too long to figure out)
+
+2021-08-05 | v0.6.0
+Added: profile picture emoji creator
+Fixed: broken "help" command
+
+2021-05-07 | v0.5.0
+Added: "nasa" command (API experiment)
+Added: "math" command (evaluation experiment)
+Added: ability to hide commands from the "help" command
+Changed: command loader now recursively loads the command directory
+
+2021-04-30 | v0.4.0
+Added: "portal" command
+Added: client passthrough for command scripts, which allows for more powerful commands
+
+2021-04-26 | v0.3.0
+Added: "coinflip" and "roll" commands
+Added: "raccoon", "sheep", and "quote" commands (local filesystem experiments)
+Changed: "help" command now shows command descriptions
+
+2021-04-18 | v0.2.0
+Changed: split command scripts from the main file, which should make Cinnabot more efficient and programming commands easier
+Added: "changelog" command
+
+2021-04-16 | v0.1.0
+Added: command recognition and argument system
+Added: "ping", "help", "server", "user", "echo", "yukipat", and "headpat" commands

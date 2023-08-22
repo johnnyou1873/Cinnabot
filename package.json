@@ -1,0 +1,20 @@
+{
+  "name": "cinnabot",
+  "version": "0.5.0",
+  "description": "Cinnamon's Discord bot.",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cinnamon",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.4.1",
+    "axios": "^0.27.2",
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.5"
+  }
+}
