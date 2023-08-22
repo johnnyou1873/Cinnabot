@@ -1,6 +1,9 @@
-Cinnabot, by cinnamontau (he/she/they)
+Cinnabot, by johnnyou1873 (cinnamontau_
 
-2022-06-08 | v0.10beta2
+2023-08-22 | v1.0.0
+Removed: "headpat" command due to use of copyright protected media
+
+2022-06-08 | v0.10.0
 Added: automatic emoji updating
 Added: automatic pin archiving
 
